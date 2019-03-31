@@ -3,6 +3,7 @@ package ms.auth.poc.security;
 public class Assertion {
     private Boolean success;
 
+    public Assertion(){}
     public Assertion(Boolean success) {
         this.success = success;
     }
